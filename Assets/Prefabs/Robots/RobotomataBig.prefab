@@ -9,11 +9,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4385674515687956072}
-  - component: {fileID: 7244479267035680398}
   - component: {fileID: 904970959645808968}
   - component: {fileID: 1785465006905357155}
   - component: {fileID: 250400538717807686}
   - component: {fileID: 7786257922006225301}
+  - component: {fileID: -8231408690235494453}
   m_Layer: 0
   m_Name: RobotomataBig
   m_TagString: Untagged
@@ -39,30 +39,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7244479267035680398
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 815763169299592550}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3eb5f4e2673310a498467638fb301888, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  placed: 1
-  UpgradeLimit: 5
-  upgradedTimes: 0
-  boxPosition: {fileID: 1576313976325494945}
-  repairPoint: {fileID: 7527654985048246223}
-  smoke: {fileID: 2687469346649981199, guid: 68d936a408d43eb41b834a1321a8a469, type: 3}
-  state: 0
-  held_state: 0
-  speed: 0.03
-  lifespan: 40
-  weightTolerance: 3
-  boxPosition2: {fileID: 4471657620844105834}
 --- !u!136 &904970959645808968
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -203,6 +179,29 @@ LineRenderer:
     generateLightingData: 0
   m_UseWorldSpace: 1
   m_Loop: 0
+--- !u!114 &-8231408690235494453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 815763169299592550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34d81303a8f35724fa6589a9e583898a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  placed: 1
+  UpgradeLimit: 5
+  upgradedTimes: 0
+  boxPosition: {fileID: 1576313976325494945}
+  repairPoint: {fileID: 7527654985048246223}
+  smoke: {fileID: 0}
+  state: 0
+  held_state: 0
+  speed: 0.03
+  lifespan: 60
+  weightTolerance: 2
 --- !u!1 &1576313976325494945
 GameObject:
   m_ObjectHideFlags: 0
@@ -356,6 +355,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 48342839257827149817ce0d36f6e9a0, type: 2}
+    - target: {fileID: -5477749408508380018, guid: a77af9b2876e1274da38a0f8125b337d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.03
+      objectReference: {fileID: 0}
     - target: {fileID: -4364284041591501241, guid: a77af9b2876e1274da38a0f8125b337d, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
