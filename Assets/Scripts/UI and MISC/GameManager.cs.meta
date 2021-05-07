@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 80c82b396bfd8454a86f4857550a6af4
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - robot: {fileID: 919132149155446097, guid: 926ed37f71189484db17abdf5c4d14aa, type: 3}
+  - spawner: {instanceID: 0}
+  - deposit: {instanceID: 0}
+  - bigRobot: {fileID: 919132149155446097, guid: 8cb7e1c7e940a7541b9692c60e3b461f, type: 3}
+  - buyMenu: {instanceID: 0}
+  - upgradeMenu: {instanceID: 0}
+  - wallMenu: {instanceID: 0}
+  - moneyTracker: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
